@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# [Information Processing & Management] Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory
+# [IPM] Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory
 
 
 [![Paper](https://img.shields.io/badge/paper-IPM-blue)](https://www.sciencedirect.com/science/article/pii/S030645732600378X?via%3Dihub)
