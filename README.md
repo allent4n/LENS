@@ -35,7 +35,11 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
 
 3. **Install SEA Dependencies:** 
    ```shell
-   pip install -r requirements.txt
+   conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+   pip install git+https://github.com/openai/CLIP.git
+   pip install openai-whisper sentence-transformers==2.2.2 tokenizers==0.20.3 transformers==4.46.3 accelerate==1.0.1 peft==0.13.2
+   pip install git+https://github.com/bckim92/language-evaluation.git
+   pip install gdown pickle5 rouge==1.0.1 rouge_score==0.1.2 srt kornia boto3 pandas pycocoevalcap timm
    ```
    
 4. **Reproduce Results:**
