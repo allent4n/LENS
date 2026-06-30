@@ -26,7 +26,8 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    ```
 
 2. **Download the data and pretrained models**
-   [Data](https://drive.google.com/drive/folders/16YCXWkfF61k5_nEYrgDm7QMRqtK1aMYA?usp=sharing)
+
+   * [Data](https://drive.google.com/drive/folders/16YCXWkfF61k5_nEYrgDm7QMRqtK1aMYA?usp=sharing)
    
    a. Download the clip4caption_vit-b-32_model.bin and eva_clip_psz14.pt, then save them to the pretrained_weights folder
    ```shell
@@ -41,7 +42,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    mv BEST.pth ./checkpoints/BEST.pth
    ```
 
-   [Model](https://drive.google.com/drive/folders/1pXNB6jtJvGkp6bFhXM_adSsFdyXNfz3j?usp=sharing)
+   * [Model](https://drive.google.com/drive/folders/1pXNB6jtJvGkp6bFhXM_adSsFdyXNfz3j?usp=sharing)
    
    a. Download the data and unzip them to the data folder
    ```shell
@@ -52,7 +53,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    mv val_testing ./data/
    ```
 
-3. **Set Up Python Environment:** 
+4. **Set Up Python Environment:** 
 
    ```shell
    cd LENS
@@ -60,7 +61,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    conda activate lens
    ```
 
-4. **Install SEA Dependencies:** 
+5. **Install SEA Dependencies:** 
    ```shell
    conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
    pip install git+https://github.com/openai/CLIP.git
@@ -69,7 +70,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    pip install gdown pickle5 rouge==1.0.1 rouge_score==0.1.2 srt kornia boto3 pandas pycocoevalcap timm
    ```
    
-5. **Reproduce Results:**
+6. **Reproduce Results:**
    
    ```shell
    bash reproduce.sh
