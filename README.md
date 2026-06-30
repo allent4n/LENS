@@ -5,7 +5,7 @@
 
 
 [![Paper](https://img.shields.io/badge/paper-IPM-blue)](https://www.sciencedirect.com/science/article/pii/S030645732600378X?via%3Dihub)
-![Python](https://img.shields.io/badge/python-3.8-blue)
+![Python](https://img.shields.io/badge/python-3.9-blue)
 
 </div>
 
