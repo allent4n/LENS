@@ -25,7 +25,34 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    git clone https://github.com/allent4n/LENS
    ```
 
-2. **Set Up Python Environment:** 
+2. **Download the data and pretrained models**
+   [Data] (https://drive.google.com/drive/folders/16YCXWkfF61k5_nEYrgDm7QMRqtK1aMYA?usp=sharing)
+   
+   a. Download the clip4caption_vit-b-32_model.bin and eva_clip_psz14.pt, then save them to the pretrained_weights folder
+   ```shell
+   mkdir pretrained_weights
+   mv clip4caption_vit-b-32_model.bin ./pretrained_weights/clip4caption_vit-b-32_model.bin
+   mv eva_clip_psz14.pt ./pretrained_weights/eva_clip_psz14.pt
+   ```
+   
+   b. Download the BEST.pth and move it to the checkpoints folder
+   ```shell
+   mkdir checkpoints
+   mv BEST.pth ./checkpoints/BEST.pth
+   ```
+
+   [Model] (https://drive.google.com/drive/folders/1pXNB6jtJvGkp6bFhXM_adSsFdyXNfz3j?usp=sharing)
+   
+   a. Download the data and unzip them to the data folder
+   ```shell
+   mv ASR ./data/
+   mv ASR_feats_all-MiniLM-L6-v2 ./data/
+   mv eva_clip_features_new ./data/
+   mv splits ./data/
+   mv val_testing ./data/
+   ```
+
+3. **Set Up Python Environment:** 
 
    ```shell
    cd LENS
