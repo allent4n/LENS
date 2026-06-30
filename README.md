@@ -29,8 +29,8 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
 
    ```shell
    cd LENS
-   conda env create -f environment.yml
-   conda activate LENS
+   conda create -n lens python=3.9
+   conda activate lens
    ```
 
 3. **Install SEA Dependencies:** 
