@@ -48,6 +48,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    
    a. Download the data and unzip them to the data folder
    ```shell
+   mkdir data
    mv ASR ./data/
    mv ASR_feats_all-MiniLM-L6-v2 ./data/
    mv eva_clip_features_new ./data/
