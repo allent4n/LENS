@@ -29,7 +29,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
 
 2. **Download the data and pretrained models**
 
-   * [Model](https://drive.google.com/drive/folders/1pXNB6jtJvGkp6bFhXM_adSsFdyXNfz3j?usp=sharing)
+   * ### [Model](https://drive.google.com/drive/folders/1pXNB6jtJvGkp6bFhXM_adSsFdyXNfz3j?usp=sharing)
    
    a. Download the clip4caption_vit-b-32_model.bin and eva_clip_psz14.pt, then save them to the pretrained_weights folder
    ```shell
@@ -44,7 +44,7 @@ Scientific papers follow structured facets (e.g., Introduction, Methods), and mo
    mv BEST.pth ./checkpoints/BEST.pth
    ```
 
-   * [Data](https://drive.google.com/drive/folders/16YCXWkfF61k5_nEYrgDm7QMRqtK1aMYA?usp=sharing)
+   * ### [Data](https://drive.google.com/drive/folders/16YCXWkfF61k5_nEYrgDm7QMRqtK1aMYA?usp=sharing)
    
    a. Download the data and unzip them to the data folder
    ```shell
